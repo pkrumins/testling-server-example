@@ -9,7 +9,7 @@ tape('xhr request', function (t) {
         var data = '';
         res.on('data', function (buf) { data += buf });
         res.on('end', function () {
-            t.equal(data, 'beep boop\n');
+            t.equal(data, 'beep-boop\n');
         });
     });
 });

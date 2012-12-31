@@ -6,7 +6,7 @@
     },
     "testling" : {
         "files" : "test/*.js",
-        "server" : "node server.js 8642",
+        "server" : "node server.js 8642 beep-boop",
         "browsers" : {
             "iexplore" : [ "9.0" ],
             "chrome" : [ "20.0" ],
